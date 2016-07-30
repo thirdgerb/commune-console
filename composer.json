@@ -1,0 +1,21 @@
+{
+    "name": "thirdgerb/commune-console",
+    "description": "using laravel frameworks but only focus on console",
+    "type": "project",
+    "require": {
+        "laravel/framework": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Commune\\": "commune/",
+            "App\\": "app/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thirdgerb",
+            "email": "thirdgerb@gmail.com"
+        }
+    ]
+}
